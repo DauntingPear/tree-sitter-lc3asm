@@ -1,0 +1,50 @@
+  "theme": {
+    "attribute": {
+      "color": 124,
+      "italic": true
+    },
+    "constant.builtin": {
+      "color": 94,
+      "bold": true
+    },
+    "operator": {
+      "bold": true,
+      "color": 239
+    },
+    "property": 124,
+    "punctuation.delimiter": 239,
+    "variable.builtin": {
+      "bold": true
+    },
+    "function.builtin": {
+      "bold": true,
+      "color": 26
+    },
+    "module": 136,
+    "constructor": 136,
+    "variable.parameter": {
+      "underline": true
+    },
+    "embedded": null,
+    "tag": 18,
+    "string": 28,
+    "function": 26,
+    "comment": {
+      "color": 245,
+      "italic": true
+    },
+    "punctuation.bracket": 239,
+    "type.builtin": {
+      "bold": true,
+      "color": 23
+    },
+    "string.special": 30,
+    "type": 23,
+    "keyword": 56,
+    "constant": 94,
+    "number": {
+      "color": 94,
+      "bold": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+=====
+test
+=====
+START:
+  ADD
+  START:
+    ADD
+    START:
+      ADD
+---
+
+=====
+HALT
+=====
+HALT
+---
+
+=====
+teee
+=====
+MESSAGE .STRINGZ "Game Over"
+---
