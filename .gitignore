@@ -2,7 +2,6 @@
 Cargo.lock
 target/
 lc3asm/
-src/
 
 # Node artifacts
 build/
