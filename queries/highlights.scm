@@ -1,14 +1,21 @@
 ; General
-(label) @keyword
-(reg) @type
-(directive) @function
-; Literals
-(int) @number
+(label) @variable.special
 (hex) @number
+(int) @number
+(reg) @variable
+(label_jump) @type
+
+(meta [
+  (meta_ident) @keyword
+  (hex) @number
+])
+
+(instruction [
+  (trap) @keyword
+  (opcode) @function
+  (label) @variable.special
+])
+
 (string) @string
-(meta_ident) @keyword
 
-; Keywords
-
-; Operators & Punctuation
-["," ":"] @punctuation.delimiter
+(comment) @comment
